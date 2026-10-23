@@ -6,7 +6,7 @@ Self-hosted recipe manager: FastAPI + SQLite + a small vanilla-JS web UI, in one
 docker compose up -d --build
 ```
 
-Open http://localhost:8000. Data lives in the `recipe-data` Docker volume and survives rebuilds.
+Open http://localhost:25601. Data lives in the `recipe-data` Docker volume and survives rebuilds.
 There is no authentication, so keep it on a trusted network (or put a reverse proxy in front).
 
 ## Features

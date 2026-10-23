@@ -2,7 +2,7 @@ services:
   recipes:
     build: .
     ports:
-      - "8000:8000"
+      - "25601:8000"
     volumes:
       - recipe-data:/data
     restart: unless-stopped
