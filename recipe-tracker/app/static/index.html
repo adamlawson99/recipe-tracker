@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recipe Tracker</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="#/">🍳 Recipe Tracker</a>
+    <nav>
+      <a href="#/new" class="btn primary">+ New recipe</a>
+      <a href="#/import" class="btn">Import</a>
+      <a href="/api/export" class="btn" download>Export</a>
+    </nav>
+  </header>
+  <main id="app"></main>
+  <div id="toast" hidden></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

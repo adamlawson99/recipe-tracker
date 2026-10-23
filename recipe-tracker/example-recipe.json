@@ -1,0 +1,20 @@
+{
+  "title": "Garlic Chicken Pasta",
+  "source": "https://example.com/garlic-chicken-pasta",
+  "description": "Quick weeknight pasta with seared chicken and a garlicky pan sauce.",
+  "categories": ["dinner"],
+  "tags": ["high protein", "pasta", "30 minutes"],
+  "servings": 4,
+  "ingredients": [
+    { "quantity": 12, "unit": "oz", "name": "penne" },
+    { "quantity": 1.5, "unit": "lb", "name": "chicken breast", "note": "sliced thin" },
+    { "quantity": 4, "unit": "clove", "name": "garlic", "note": "minced" },
+    { "quantity": "1/2", "unit": "cup", "name": "parmesan", "note": "grated" },
+    { "quantity": null, "unit": "", "name": "salt and pepper", "note": "to taste" }
+  ],
+  "instructions": [
+    "Boil the penne in salted water until al dente; reserve 1/2 cup pasta water, then drain.",
+    "Season the chicken and sear in a hot pan until cooked through, about 6 minutes.",
+    "Add garlic and cook 30 seconds, then toss in pasta, parmesan and a splash of pasta water."
+  ]
+}
